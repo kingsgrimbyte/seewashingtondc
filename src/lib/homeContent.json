@@ -1,0 +1,305 @@
+{
+  "hero": {
+    "title": "Discover Washington, DC",
+    "subtitle": "Your ultimate guide to the nation's capital - explore like a local",
+    "ctaText": "Start Exploring",
+    "ctaLink": "#categories"
+  },
+  "quickCategories": [
+    { "name": "Museums", "icon": "museum", "href": "/museums" },
+    { "name": "Restaurants", "icon": "restaurant", "href": "/restaurants" },
+    { "name": "Monuments", "icon": "monument", "href": "/monuments" },
+    { "name": "Parks", "icon": "park", "href": "/parks" },
+    { "name": "Memorials", "icon": "memorial", "href": "/memorials" },
+    { "name": "Fishing", "icon": "fish", "href": "/fishing-spot" },
+    { "name": "Water Sports", "icon": "water", "href": "/water-sports" },
+    { "name": "Islands", "icon": "island", "href": "/island" },
+    { "name": "Beaches", "icon": "beach", "href": "/beach" },
+    { "name": "Golf ", "icon": "golf", "href": "/golf-courses" },
+    { "name": "Theater", "icon": "ticket", "href": "/theater" }
+  ],
+  "whyVisitDC": {
+    "badge": "Explore DC",
+    "badgeColor": "from-amber-100 to-orange-100",
+    "badgeTextColor": "text-amber-800",
+    "title": "Why Washington DC is a Must-Visit City",
+    "titleGradient": "from-blue-600 to-indigo-700",
+    "description": "Washington, DC is a city rich in history, culture, and diverse experiences. As the U.S. capital, it offers a unique mix of national landmarks, cultural institutions, and vibrant neighborhoods. If you're a food lover, history enthusiast or outdoor adventurer, DC has something for everyone. With free access to world-class museums, scenic parks, and exciting local events, Washington, DC stands out as a destination that’s both educational and entertaining.",
+    "features": [
+      { "icon": "landmark", "text": "Iconic Monuments & Memorials" },
+      { "icon": "palette", "text": "World-Class Museums" },
+      { "icon": "restaurant", "text": "Diverse Culinary Scene" },
+      { "icon": "park", "text": "Beautiful Parks & Gardens" }
+    ],
+    "ctaText": "Start Planning Your DC Adventure →",
+    "ctaLink": "/things-to-do",
+    "image": "https://ik.imagekit.io/h7rza8886p/architecture-2025-03-15-05-09-37-utc.jpg?updatedAt=1754465975568",
+    "stats": {
+      "number": "15+",
+      "label": "Museums"
+    }
+  },
+  "seasonalGuide": {
+    "badge": "Seasonal Guide",
+    "badgeColor": "from-emerald-100 to-teal-100",
+    "badgeTextColor": "text-emerald-800",
+    "title": "When Are You Looking to Visit Washington DC?",
+    "titleGradient": "from-emerald-600 to-teal-700",
+    "description": "The best time to visit Washington, DC depends on your preferences.",
+    "seasons": [
+      {
+        "season": "Spring",
+        "icon": "leaf",
+        "color": "from-pink-400 to-rose-500",
+        "bgColor": "from-pink-50 to-rose-50",
+        "description": "Witness the Cherry Blossom Festival and outdoor art installations.",
+        "highlights": ["Cherry Blossom Festival", "Outdoor Art Installations", "National Mall Blooms", "Spring Gardens"]
+      },
+      {
+        "season": "Summer",
+        "icon": "sun",
+        "color": "from-amber-400 to-orange-500",
+        "bgColor": "from-amber-50 to-orange-50",
+        "description": "Enjoy waterfront dining, baseball games, and open-air concerts.",
+        "highlights": ["Waterfront Dining", "Baseball Games", "Open-Air Concerts", "Potomac Activities"]
+      },
+      {
+        "season": "Fall",
+        "icon": "leaf",
+        "color": "from-orange-400 to-red-500",
+        "bgColor": "from-orange-50 to-red-50",
+        "description": "Explore wine trails, fall foliage, and cultural festivals.",
+        "highlights": ["Wine Trails", "Fall Foliage", "Cultural Festivals", "Harvest Events"]
+      },
+      {
+        "season": "Winter",
+        "icon": "snowflake",
+        "color": "from-blue-400 to-indigo-500",
+        "bgColor": "from-blue-50 to-indigo-50",
+        "description": "Experience holiday markets, indoor museums, and cozy food tours.",
+        "highlights": ["Holiday Markets", "Indoor Museums", "Cozy Food Tours", "Winter Festivals"]
+      }
+    ],
+    "ctaText": "Plan Your Visit Today →",
+    "ctaLink": "/contact"
+  },
+  "popularNow": {
+    "badge": "Trending Now",
+    "badgeColor": "from-purple-100 to-pink-100",
+    "badgeTextColor": "text-purple-800",
+    "title": "What's Popular Right Now in DC",
+    "titleGradient": "from-purple-700 to-pink-800",
+    "description": "Stay updated on what's trending and loved by locals and visitors. From hidden gems to iconic landmarks, see where DC is buzzing today.",
+    "categories": [
+      { "name": "Museums", "icon": "museum", "href": "/museums", "color": "from-blue-400 to-blue-600", "bgColor": "from-blue-50 to-blue-100" },
+      { "name": "Restaurants", "icon": "restaurant", "href": "/restaurants", "color": "from-orange-400 to-orange-600", "bgColor": "from-orange-50 to-orange-100" },
+      { "name": "Monuments", "icon": "monument", "href": "/monuments", "color": "from-indigo-400 to-indigo-600", "bgColor": "from-indigo-50 to-indigo-100" },
+      { "name": "Parks", "icon": "park", "href": "/parks", "color": "from-green-400 to-green-600", "bgColor": "from-green-50 to-green-100" },
+      { "name": "Memorials", "icon": "memorial", "href": "/memorials", "color": "from-gray-400 to-gray-600", "bgColor": "from-gray-50 to-gray-100" },
+      { "name": "Fishing", "icon": "fish", "href": "/fishing-spots", "color": "from-cyan-400 to-cyan-600", "bgColor": "from-cyan-50 to-cyan-100" },
+      { "name": "Water Sports", "icon": "water", "href": "/water-sports", "color": "from-teal-400 to-teal-600", "bgColor": "from-teal-50 to-teal-100" },
+      { "name": "Hiking", "icon": "hiking", "href": "/hiking", "color": "from-emerald-400 to-emerald-600", "bgColor": "from-emerald-50 to-emerald-100" },
+      { "name": "Islands", "icon": "island", "href": "/islands", "color": "from-yellow-400 to-yellow-600", "bgColor": "from-yellow-50 to-yellow-100" },
+      { "name": "Beaches", "icon": "beach", "href": "/beach", "color": "from-amber-400 to-amber-600", "bgColor": "from-amber-50 to-amber-100" },
+      { "name": "Sports", "icon": "sports", "href": "/sports", "color": "from-red-400 to-red-600", "bgColor": "from-red-50 to-red-100" },
+      { "name": "Tickets", "icon": "ticket", "href": "/tickets", "color": "from-purple-400 to-purple-600", "bgColor": "from-purple-50 to-purple-100" }
+    ],
+    "ctaText": "View All Popular Spots",
+    "ctaLink": "/popular"
+  },
+  "bookYourStay": {
+    "badge": "Discover DC",
+    "badgeColor": "from-amber-100 to-orange-100",
+    "badgeTextColor": "text-amber-800",
+    "title": "Why Choose Washington, DC Over Other Cities",
+    "titleGradient": "from-blue-600 to-indigo-700",
+    "description": "Rich in History & Culture: Washington, DC is home to iconic landmarks and world-class museums, offering visitors a unique cultural and historical experience. Free Admission to Museums: DC's Smithsonian Museums provide free access to some of the most renowned collections of art, history, and science. Diverse Dining Scene: The city boasts a wide range of dining options, from upscale restaurants to trendy food markets, offering something for every taste. Exciting Nightlife: DC's nightlife is buzzing with vibrant bars, lounges, and live music venues, ensuring something for everyone after dark. Outdoor Activities: Whether it's kayaking on the Potomac or hiking in Rock Creek Park, DC offers plenty of outdoor adventures for nature lovers and adventure seekers. Convenient Transportation: With an efficient Metro system, DC Circulator, and easy access to major airports, getting around the city is hassle-free.",
+    "hotelTypes": [
+      { "icon": "landmark", "text": "Iconic Monuments & Memorials", "description": "World-class museums and historic sites" },
+      { "icon": "palette", "text": "World-Class Museums", "description": "Free Smithsonian collections" },
+      { "icon": "restaurant", "text": "Diverse Culinary Scene", "description": "From upscale to trendy food markets" },
+      { "icon": "moon", "text": "Exciting Nightlife", "description": "Vibrant bars and live music venues" }
+    ],
+    "ctaText": "Plan Your Visit to DC →",
+    "ctaLink": "/things-to-do",
+    "image": "/images/pexels-photo-1307698.jpeg",
+    "stats": {
+      "number": "15+",
+      "label": "Museums"
+    }
+  },
+  "neighborhoods": {
+    "badge": "Local Discovery",
+    "badgeColor": "from-violet-100 to-purple-100",
+    "badgeTextColor": "text-violet-800",
+    "title": "Explore Our Neighborhoods",
+    "titleGradient": "from-violet-600 to-purple-700",
+    "description": "Each DC neighborhood has its own personality and charm. Stroll Georgetown's historic streets, soak in Adams Morgan's nightlife, or explore the trendy shops of Dupont Circle. Use our interactive map to find local favorites and unique experiences near you.",
+    "neighborhoods": [
+      {
+        "name": "Georgetown",
+        "description": "Historic streets & waterfront dining",
+        "icon": "museum",
+        "color": "from-violet-400 to-violet-600",
+        "bgColor": "from-violet-50 to-violet-100",
+        "features": ["Historic Architecture", "Waterfront Dining", "Shopping District", "Cobblestone Streets"]
+      },
+      {
+        "name": "Adams Morgan",
+        "description": "Vibrant nightlife & international cuisine",
+          "icon": "moon",
+        "color": "from-purple-400 to-purple-600",
+        "bgColor": "from-purple-50 to-purple-100",
+        "features": ["Nightlife Scene", "International Cuisine", "Live Music", "Cultural Diversity"]
+      },
+      {
+        "name": "Dupont Circle",
+        "description": "Trendy shops & cultural institutions",
+          "icon": "palette",
+        "color": "from-indigo-400 to-indigo-600",
+        "bgColor": "from-indigo-50 to-indigo-100",
+        "features": ["Art Galleries", "Boutique Shops", "Cultural Events", "Historic Homes"]
+      },
+      {
+        "name": "Capitol Hill",
+        "description": "Political heart & charming rowhouses",
+        "icon": "museum",
+        "color": "from-blue-400 to-blue-600",
+        "bgColor": "from-blue-50 to-blue-100",
+        "features": ["Political Landmarks", "Historic Rowhouses", "Eastern Market", "Parks & Gardens"]
+      }
+    ],
+    "ctaText": "View All Neighborhoods",
+    "ctaLink": "/neighborhoods",
+    "stats": {
+      "number": "50+",
+      "label": "Neighborhoods"
+    }
+  },
+  "blogGuides": {
+    "badge": "Insider Knowledge",
+    "badgeColor": "from-rose-100 to-pink-100",
+    "badgeTextColor": "text-rose-800",
+    "title": "The DC Insider Blog & Travel Guides",
+    "titleGradient": "from-rose-600 to-pink-700",
+    "description": "Get insider tips and guides from locals who know DC best. Whether you're looking for hidden gems, food tours, or family-friendly itineraries, we've got you covered.",
+    "blogPosts": [
+      {
+        "title": "Top 10 Free Things to Do in DC",
+        "description": "A budget-friendly guide to the capital's best experiences.",
+        "category": "Budget Travel",
+          "icon": "money",
+        "color": "from-emerald-400 to-emerald-600",
+        "bgColor": "from-emerald-50 to-emerald-100",
+        "readTime": "5 min read",
+        "image": "https://ik.imagekit.io/h7rza8886p/boston-street-buildings-at-sunset-boston-massac-2025-04-01-23-26-26-utc.jpg?updatedAt=1754465975586",
+        "link": "/blog/free-things-to-do-dc"
+      },
+      {
+        "title": "The Best Food Spots Near the National Mall",
+        "description": "Eat like a local while sightseeing.",
+        "category": "Food & Dining",
+          "icon": "restaurant",
+        "color": "from-orange-400 to-orange-600",
+        "bgColor": "from-orange-50 to-orange-100",
+        "readTime": "7 min read",
+        "image": "https://ik.imagekit.io/h7rza8886p/national-gallery-of-art-west-building-at-sunset-2025-03-26-21-19-18-utc.jpg?updatedAt=1754465975552",
+        "link": "/blog/food-spots-national-mall"
+      },
+      {
+        "title": "Nightlife Guide: DC After Dark",
+        "description": "Bars, music venues, and late-night eats.",
+        "category": "Nightlife",
+          "icon": "moon",
+        "color": "from-purple-400 to-purple-600",
+        "bgColor": "from-purple-50 to-purple-100",
+        "readTime": "8 min read",
+        "image": "https://ik.imagekit.io/h7rza8886p/united-states-capitol-building-at-sunset-washing-2025-03-24-12-36-35-utc.jpg?updatedAt=1754465975443",
+        "link": "/blog/nightlife-guide-dc"
+      }
+    ],
+    "featuredGuide": {
+      "badge": "Featured Guide",
+      "title": "Ultimate DC Family Adventure Guide",
+      "description": "Discover the perfect family-friendly itinerary for exploring Washington DC with kids. From interactive museums to outdoor adventures, make memories that last a lifetime.",
+      "rating": "4.9/5",
+      "readTime": "12 min read",
+      "image": "/images/pexels-photo-1307698.jpeg",
+      "link": "/blog/family-adventure-guide"
+    },
+    "ctaText": "Read All Guides",
+    "ctaLink": "/blog"
+  },
+  "seasonalHighlights": {
+    "badge": "Seasonal",
+    "badgeColor": "bg-white/20",
+    "badgeTextColor": "text-white",
+    "title": "Summer in the Capital",
+    "description": "Best experiences for the current season",
+    "highlights": [
+      {
+        "title": "Water Activities on the Potomac",
+        "image": "/images/summer-potomac.jpg",
+        "badge": "Water Sports",
+        "link": "/category/water-sports"
+      },
+      {
+        "title": "Baseball at Nationals Park",
+        "image": "/images/nationals-park.jpg",
+        "badge": "Sports",
+        "link": "/category/sports"
+      },
+      {
+        "title": "Summer Concert Series",
+        "image": "/images/summer-concerts.jpg",
+        "badge": "Events",
+        "link": "/category/tickets"
+      }
+    ]
+  },
+  "newsletter": {
+    "badge": "Stay Connected",
+    "badgeColor": "bg-white/10",
+    "badgeTextColor": "text-white",
+    "title": "Never Miss a DC Moment",
+    "description": "Get personalized recommendations, event updates, and insider tips",
+    "placeholder": "example@email.com",
+    "ctaText": "Subscribe",
+    "privacyText": "We respect your privacy. Unsubscribe at any time."
+  },
+  "faq": {
+    "badge": "Helpful Info",
+    "title": "Frequently Asked Questions",
+    "description": "Quick answers to common questions about exploring Washington, DC.",
+    "items": [
+      {
+        "question": "What are the top attractions in Washington, DC?",
+        "answer": "Washington, DC is home to iconic memorials, world-class museums, and outdoor spaces that showcase the history and beauty of the capital."
+      },
+      {
+        "question": "What are some must-see events in Washington, DC?",
+        "answer": "DC has something happening all year long. From lively cultural festivals to outdoor events like food and music festivals, there’s always something exciting to check out. If you’re in town during certain seasons, you’ll catch amazing celebrations that showcase the best of what the city has to offer."
+      },
+      {
+        "question": "Are there any family-friendly activities in Washington, DC?",
+        "answer": "Definitely! DC is great for families. There’s a ton to do—interactive museums, plenty of outdoor space for walks or picnics, and even spots where you can get up close with wildlife. You’ll find plenty of fun activities that everyone, from toddlers to teens, will enjoy."
+      },
+      {
+        "question": "How long should I spend in Washington, DC?",
+        "answer": "Most people find that 3-4 days is perfect to explore the major sights, museums, and landmarks. If you love diving deeper into local events or neighborhoods, you might want to stay a bit longer. There’s always something new to discover."
+      },
+      {
+        "question": "Can I visit the monuments and museums for free?",
+        "answer": "Yes! Many of DC’s best monuments and museums are completely free, which makes it easy to experience all the history and culture without spending a dime. It’s a fantastic way to explore the city’s past and present without worrying about admission fees."
+      },
+      {
+        "question": "Is Washington, DC a good city for outdoor activities?",
+        "answer": "Absolutely! Whether you're into hiking, cycling, or water activities, DC offers tons of options to get outside and enjoy the fresh air. There are plenty of green spaces and scenic spots for relaxing or exploring, so it’s perfect for those who love being outdoors."
+      },
+      {
+        "question": "What type of atmosphere can I expect in Washington, DC?",
+        "answer": "DC has a great mix of historic charm and modern energy. You’ll find quiet, peaceful spots where you can unwind, but also plenty of lively, bustling areas filled with art, music, and food. No matter what vibe you’re after, there’s something for everyone."
+      }
+    ]
+  }
+}

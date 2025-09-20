@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "title": "Top Things to Do in Washington DC | Outdoor Adventures, Water Sports, Hiking",
+    "description": "Discover the best things to do in Washington DC. Explore outdoor adventures, water sports, hiking, family fun, and events. Plan your perfect DC trip today.",
+    "siteName": "Washington DC Directory"
+  },
+  "hero": {
+    "title": "Top Things to Do in Washington DC – Outdoor Adventures, Water Sports, Hiking & More",
+    "subtitle": "Washington DC offers a wide range of activities for all types of visitors. From outdoor adventures along the Potomac River to thrilling water sports, hiking trails, and unique cultural experiences, there’s always something exciting to do in the nation’s capital. Whether you’re a nature lover, sports fan, or seeking family-friendly activities, you’ll find plenty of ways to enjoy the city.",
+    "ctaText": "Find Activities →",
+    "ctaLink": "/things-to-do"
+  },
+  "categories": [
+    { "label": "Water Sports", "href": "/things-to-do/water-sports/", "icon": "water" },
+    { "label": "Fishing Spots", "href": "/things-to-do/fishing-spots/", "icon": "fish" },
+    { "label": "Hiking", "href": "/things-to-do/hiking/", "icon": "hiking" },
+    { "label": "Beaches", "href": "/things-to-do/beaches/", "icon": "beach" },
+    { "label": "Sports Teams & Tickets", "href": "/things-to-do/sports-teams/", "icon": "ticket" },
+    { "label": "Spas", "href": "/things-to-do/spas/", "icon": "spa" }
+  ],
+  "highlights": {
+    "heading": "Top Activities to Try in Washington DC",
+    "intro": "Washington DC is a city that offers something for everyone, whether you’re looking to relax or get active. Here are some of the best things to do that should be at the top of your list:",
+    "items": [
+      {
+        "title": "Water Sports on the Potomac River",
+        "body": "The Potomac River is a popular spot for outdoor activities. Whether you’re into kayaking, paddleboarding, or just enjoying a boat ride, this scenic river provides plenty of opportunities for fun and relaxation with stunning views of DC landmarks."
+      },
+      {
+        "title": "Hiking in Rock Creek Park",
+        "body": "Rock Creek Park is one of DC’s largest urban green spaces, offering miles of trails perfect for hiking, biking, and nature walks. Whether you want a short stroll or a more challenging hike, this park offers an escape into nature while remaining close to the city."
+      },
+      {
+        "title": "Explore the Tidal Basin",
+        "body": "The Tidal Basin is an iconic outdoor space in DC, especially during cherry blossom season. Whether you’re taking a boat ride or just strolling along the water, this is a perfect spot for outdoor relaxation and sightseeing. It’s also home to several memorials, including the Jefferson Memorial."
+      }
+    ],
+    "cta": { "label": "Explore All Things to Do →", "href": "/things-to-do" }
+  },
+  "map": {
+    "heading": "Find Activities Near You",
+    "body": "Use our interactive map to discover things to do across Washington DC based on your location. Whether you’re near the National Mall, Georgetown, or Dupont Circle, you can easily find nearby outdoor activities, cultural events, and more.",
+    "cta": { "label": "Open Interactive Map →", "href": "/map" }
+  },
+  "seoBlock": {
+    "heading": "Washington DC: A City Full of Things to Do for Every Type of Traveler",
+    "body": "Washington DC is a vibrant city with plenty of things to do, offering a perfect mix of outdoor fun, cultural experiences, and family-friendly activities. Whether you're an adventure seeker, history buff, or nature lover, there's always something to enjoy.\nOne of the best ways to experience Washington DC is through its outdoor activities. With the Potomac River flowing through the city, water sports like kayaking and paddleboarding are popular options. For those who love hiking, Rock Creek Park is a hidden gem, providing miles of trails through wooded landscapes. You can explore the city’s history while hiking through National Park Service sites, enjoying the peacefulness of nature.\nFor a more relaxed experience, the Tidal Basin offers picturesque views, especially during the cherry blossom season. Visitors can rent paddleboats or simply enjoy the memorials surrounding the water. DC also boasts numerous green spaces where you can picnic, bike, or enjoy outdoor events year-round.",
+    "sections": [
+      {
+        "title": "1. Water Sports: Paddleboarding, Kayaking, and Boating on the Potomac",
+        "body": "DC’s Potomac River offers endless opportunities for water sports. From paddleboarding to kayaking, it’s the perfect way to see the city’s landmarks from the water. Whether you’re a beginner or an experienced kayaker, the Potomac provides a scenic and fun way to explore DC."
+      },
+      {
+        "title": "2. Hiking Trails: Explore Rock Creek Park",
+        "body": "Rock Creek Park is a nature lover’s paradise. With over 1,700 acres of parkland, it’s the ideal spot for hiking, biking, and wildlife watching. The park offers trails for all levels of hikers, from easy walks to more challenging routes. It’s also a great place to escape the hustle and bustle of the city."
+      },
+      {
+        "title": "3. Family-Friendly Fun: Zoos, Aquariums, and Outdoor Adventures",
+        "body": "For families visiting DC, there’s no shortage of fun activities. The Smithsonian National Zoo is home to giant pandas and other animals, providing an educational and entertaining experience for children and adults alike. Families can also enjoy outdoor adventures on the Potomac River or explore the many parks and gardens around the city."
+      },
+      {
+        "title": "Fun Events: Seasonal Festivals and Local Attractions",
+        "body": "Washington DC hosts year-round events and festivals, including the National Cherry Blossom Festival in spring, outdoor concerts in the summer, and the DC Jazz Festival in the fall. These events offer visitors a chance to experience DC’s vibrant culture and lively atmosphere."
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to Explore Washington DC’s Best Things to Do?",
+    "cta": { "label": "Start Planning Your Visit →", "href": "/things-to-do" }
+  }
+}

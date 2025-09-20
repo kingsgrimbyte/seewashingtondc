@@ -1,0 +1,42 @@
+{
+  "name": "washingtondc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cleanup": "rimraf app && echo 'Root app directory removed. Use only src/app directory.'"
+  },
+  "dependencies": {
+    "@radix-ui/react-alert-dialog": "^1.1.11",
+    "@radix-ui/react-avatar": "^1.1.7",
+    "@radix-ui/react-dropdown-menu": "^2.1.12",
+    "@radix-ui/react-slot": "^1.2.0",
+    "@radix-ui/react-tabs": "^1.1.9",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "@tanstack/react-table": "^8.21.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cookies-next": "^5.1.0",
+    "lucide-react": "^0.503.0",
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "recharts": "^2.15.3",
+    "tailwind-merge": "^3.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/google.maps": "^3.58.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "rimraf": "^5.0.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

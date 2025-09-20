@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "title": "Entertainment in Washington DC – Live Shows, Concerts, and Events",
+    "subtitle": "Washington DC is a city that comes alive with entertainment options for every type of visitor. Whether you’re into live theater, concerts, or local festivals, DC offers a vibrant arts and culture scene year-round. Explore the best entertainment the capital has to offer, from Broadway shows to intimate music performances and everything in between.",
+    "ctaText": "Discover DC’s Best Shows",
+    "ctaLink": "/entertainment/events/"
+  },
+  "categories": [
+    { "name": "Theaters & Performances", "href": "/theater/", "icon": "theater" },
+    { "name": "Zoo", "href": "/Zoo/", "icon": "zoo" },
+    { "name": "Golf Courses", "href": "/golf-courses/", "icon": "golf" },
+    { "name": "Nightlife & Bars", "href": "/bar/", "icon": "bar" }
+  ],
+  "highlights": [
+    {
+      "name": "The Kennedy Center",
+      "description": "As one of the world’s busiest cultural centers, the Kennedy Center hosts a variety of live performances, including classical music concerts, opera, ballet, and Broadway shows. It’s a must-visit for anyone looking to experience world-class entertainment in DC.",
+      "icon": "landmark"
+    },
+    {
+      "name": "The Anthem",
+      "description": "Located in The Wharf, The Anthem is a popular venue for live music. Catch big-name artists or enjoy emerging talent in this modern, acoustically acclaimed space that hosts everything from concerts to music festivals.",
+      "icon": "microphone"
+    },
+    {
+      "name": "Arena Stage",
+      "description": "A gem for theater lovers, Arena Stage offers innovative and engaging theatrical performances, ranging from classic plays to contemporary productions. It’s a staple in DC’s arts scene.",
+      "icon": "theater"
+    },
+    {
+      "name": "National Theater",
+      "description": "The National Theater is where you can catch the best Broadway shows and touring performances. It’s known for bringing high-quality productions to the city, offering a premier theater experience.",
+      "icon": "film"
+    }
+  ],
+  "mapSection": {
+    "title": "Find Entertainment Near You",
+    "description": "Use our interactive map to locate entertainment venues, live shows, concerts, and festivals happening across Washington DC. From Dupont Circle to Georgetown, you can easily find the best entertainment near your location.",
+    "ctaText": "Open Interactive Map",
+    "ctaLink": "/entertainment/map"
+  },
+  "seo": {
+    "title": "Washington DC: A Hub for Entertainment, Music, and Live Shows",
+    "intro": "Washington DC offers a dynamic range of entertainment for all types of visitors. Whether you’re a fan of the arts, live music, or vibrant nightlife, the city’s entertainment scene is second to none. From the iconic Kennedy Center to intimate venues like The Black Cat, there’s always something to catch. For those interested in theater, Arena Stage and the Shakespeare Theatre Company provide fantastic performances, showcasing everything from classic Shakespeare plays to modern works. If you’re a music lover, DC boasts venues like The Anthem, which hosts big-name performers, and The 9:30 Club, known for its intimate atmosphere and diverse range of genres. If you’re visiting during the spring, summer, or fall, be sure to check out one of DC’s many music festivals or food & culture festivals. Events like the DC Jazz Festival or Capital Pride Festival offer an excellent way to experience the local vibe.",
+    "points": [
+      {
+        "title": "1. Live Theater: Broadway Shows, Local Performances, and More",
+        "desc": "Washington DC is home to some of the best live theater venues in the country. The Kennedy Center is a prestigious location for Broadway productions, while smaller venues like Studio Theatre and Signature Theatre offer cutting-edge performances and avant-garde productions. Whether you’re into contemporary works, classic theater, or immersive experiences, DC has it all.",
+        "icon": "theater",
+        "border": "primary"
+      },
+      {
+        "title": "2. Concerts & Live Music Venues in DC",
+        "desc": "If live music is what you're after, The Anthem and 9:30 Club are the places to be. Known for their intimate settings and incredible acoustics, these venues host both big-name artists and rising stars. Whether you love indie rock, hip hop, jazz, or electronic music, DC’s live music scene has something for every genre.",
+        "icon": "music",
+        "border": "secondary"
+      },
+      {
+        "title": "3. Local Festivals & Events: Celebrate DC’s Culture",
+        "desc": "Washington DC is a city that knows how to throw a good festival. The National Cherry Blossom Festival in the spring is a must-see, while The Capital Pride Festival in the summer celebrates diversity and inclusivity. Other major events like Jazz in the Garden and the Smithsonian Folklife Festival showcase the city’s vibrant cultural scene.",
+        "icon": "festival",
+        "border": "primary"
+      },
+      {
+        "title": "4. Nightlife & DC’s Vibrant Bar Scene",
+        "desc": "DC’s nightlife is legendary, with bars, lounges, and rooftop bars offering everything from craft cocktails to classic beer and whiskey selections. Whether you're looking to dance the night away at Eighteenth Street Lounge or enjoy a casual drink at The Hamilton, DC’s nightlife offers something for everyone. Be sure to visit The Wharf for a great mix of restaurants, bars, and entertainment venues, all overlooking the water.",
+        "icon": "bar",
+        "border": "secondary"
+      }
+    ]
+  },
+  "whenToVisit": {
+    "title": "Best Time to Visit Washington DC – Discover the Ideal Season for Your Trip",
+    "description": "Washington DC is known for its year-round entertainment offerings, but the best time to visit depends on the type of events and shows you're interested in. Spring is the best time for outdoor festivals and the National Cherry Blossom Festival, while summer brings concerts and food festivals. The fall offers the perfect weather for enjoying live theater and outdoor movie screenings. Additionally, winter in DC offers festive performances like the Nutcracker ballet and holiday concerts."
+  },
+  "gettingAround": {
+    "title": "Getting Around Washington DC – Convenient Transportation Options",
+    "description": "Whether you're heading to a Broadway show at the National Theater or attending a live concert at The Anthem, Washington DC’s public transportation makes it easy to get around. The Washington Metro is a fast and convenient way to travel across the city, with several lines connecting entertainment districts. You can also take the DC Circulator for a low-cost shuttle service that connects popular venues and attractions."
+  },
+  "finalCTA": {
+    "title": "Ready to Enjoy Washington DC’s Entertainment Scene?",
+    "ctaText": "Get Your Tickets Now",
+    "ctaLink": "/entertainment/events/"
+  }
+}

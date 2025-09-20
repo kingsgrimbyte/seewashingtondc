@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "About See Washington, DC | Exploring the Nation's Capital",
+    "description": "Discover Washington, DC with Us – your trusted online guide to attractions, events, neighborhoods, and hidden gems. Perfect for first-time visitors, repeat travelers, and locals looking to explore more."
+  },
+  "hero": {
+    "title": "About Us – See Washington, DC",
+    "subtitle": "Washington, DC offers much more than monuments and politics. It is a city layered with history, culture, hidden corners, and unique experiences waiting to be explored. ",
+    "ctaText": "Start Exploring DC",
+    "ctaLink": "/search"
+  },
+  "intro": {
+    "title": "Your Trusted DC Guide",
+    "description": "We are an independent, information-focused directory designed for anyone who wants to explore DC like a local. Our site is built for travelers planning a short visit, people here on business, and even locals looking for fresh experiences in their own backyard."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "We want to make exploring DC simple, exciting, and stress-free. Our team gathers accurate, up-to-date, and relevant information in one place so you can focus on enjoying your trip."
+  },
+  "audience": {
+    "title": "Who We're For",
+    "sections": [
+      {
+        "title": "First-Time Visitors",
+        "description": "We guide first-time visitors who want to experience Washington, DC in a way that feels effortless and rewarding. Our resources help you see the essential landmarks, enjoy the best local food, and uncover small but memorable details often overlooked by guidebooks. You will know exactly where to go, when to visit, and what to expect, so every moment of your trip feels well spent.",
+        "icon": "compass"
+      },
+      {
+        "title": "Repeat Travelers",
+        "description": "We also inspire repeat travelers ready to explore beyond the predictable paths. If you have already seen the major monuments, we introduce you to hidden museums, local markets, scenic viewpoints, and cultural events that most tourists never find. Every return visit becomes a completely fresh adventure.",
+        "icon": "refresh"
+      },
+      {
+        "title": "Local Residents",
+        "description": "And we help locals who know there is still more of DC left to uncover. Even when you live here, the city evolves constantly with new restaurants, seasonal events, art exhibitions, and festivals. We keep you updated so you can keep rediscovering the city you call home.",
+        "icon": "home"
+      }
+    ]
+  },
+  "trust": {
+    "title": "Why Trust Us?",
+    "description": "Every guide is carefully researched and curated to help you get the most out of your time in DC. We update our content regularly and focus on practical, honest tips that make your trip smoother and more enjoyable."
+  },
+  "stats": {
+    "title": "What We Offer",
+    "items": [
+      {
+        "number": "500+",
+        "label": "Restaurants",
+        "icon": "restaurant",
+        "description": "Curated dining experiences"
+      },
+      {
+        "number": "100+",
+        "label": "Museums",
+        "icon": "museum",
+        "description": "Cultural institutions"
+      },
+      {
+        "number": "200+",
+        "label": "Attractions",
+        "icon": "park",
+        "description": "Must-see destinations"
+      },
+      {
+        "number": "50+",
+        "label": "Categories",
+        "icon": "bullseye",
+        "description": "Organized experiences"
+      }
+    ]
+  },
+  "features": {
+    "title": "Our Platform Features",
+    "items": [
+      {
+        "title": "Smart Search",
+        "description": "Find exactly what you're looking for with our intelligent search that understands queries like 'best Italian restaurants in DC' or 'kid-friendly museums near the Mall.'",
+        "icon": "search",
+        "link": "/search",
+        "linkText": "Try our search →"
+      },
+      {
+        "title": "Interactive Maps",
+        "description": "Explore DC spatially with our interactive maps showing attractions, restaurants, and points of interest with real-time information and directions.",
+        "icon": "map",
+        "link": "/map",
+        "linkText": "Explore the map →"
+      },
+      {
+        "title": "Mobile-First Design",
+        "description": "Access DC Directory on any device with our responsive design that works perfectly on phones, tablets, and desktops.",
+        "icon": "mobile",
+        "link": null,
+        "linkText": "Always accessible"
+      },
+      {
+        "title": "Curated Lists",
+        "description": "Discover hand-picked collections like 'Best Rooftop Restaurants,' 'Historic Sites,' and 'Family-Friendly Activities' curated by local experts.",
+        "icon": "star",
+        "link": "/categories",
+        "linkText": "Browse categories →"
+      },
+      {
+        "title": "Real-Time Updates",
+        "description": "Get current information on opening hours, special events, seasonal attractions, and temporary closures to plan your perfect visit.",
+        "icon": "refresh",
+        "link": null,
+        "linkText": "Always current"
+      },
+      {
+        "title": "Local Insights",
+        "description": "Access insider tips, hidden gems, and local favorites that you won't find in typical tourist guides.",
+        "icon": "lightbulb",
+        "link": null,
+        "linkText": "Local expertise"
+      }
+    ]
+  },
+  "popularSearches": {
+    "title": "Popular Searches",
+    "subtitle": "See what visitors are searching for most in Washington DC",
+    "searches": [
+      "Best restaurants in DC",
+      "Seafood restaurants in DC",
+      "Best Italian restaurants in DC",
+      "Black owned restaurants in DC",
+      "Restaurants in Georgetown DC",
+      "Fun restaurants in DC",
+      "Fancy restaurants in DC",
+      "Restaurants in Chinatown DC",
+      "Soul food restaurants in DC",
+      "Best Asian restaurants in DC",
+      "5 star restaurants in DC",
+      "New restaurants in DC",
+      "Best birthday restaurants in DC",
+      "Restaurants in Union Station DC",
+      "Restaurants in the Wharf DC",
+      "Luxury restaurants in DC",
+      "Mexican restaurants in Washington DC",
+      "Best halal restaurants in DC",
+      "Best sushi restaurants in DC",
+      "Best family restaurants in DC",
+      "Indian restaurants in Washington DC",
+      "Steak restaurants in DC",
+      "Historic restaurants in DC",
+      "Kid friendly restaurants in DC",
+      "Rooftop restaurants in DC",
+      "Best casual restaurants in DC",
+      "Restaurants in Penn Quarter DC",
+      "Best waterfront restaurants in DC",
+      "Best gluten free restaurants in Washington DC",
+      "Best Chinese restaurants in Chinatown DC",
+      "Jazz restaurants in DC",
+      "Resort in Washington DC",
+      "Best vegan restaurants in DC"
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "A passionate group of DC enthusiasts, tech experts, and local guides dedicated to helping you discover the best of Washington DC",
+    "members": [
+      {
+        "title": "Tech Team",
+        "description": "Building the platform that makes discovering DC easier and more enjoyable",
+        "icon": "users",
+        "color": "from-blue-400 to-primary"
+      },
+      {
+        "title": "Local Experts",
+        "description": "DC residents and historians who know the city inside and out",
+        "icon": "museum",
+        "color": "from-secondary to-emerald-500"
+      },
+      {
+        "title": "Content Creators",
+        "description": "Writers and photographers capturing the essence of DC's best spots",
+        "icon": "palette",
+        "color": "from-blue-400 to-primary"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Explore DC?",
+    "subtitle": "Start discovering the best restaurants, attractions, and hidden gems in Washington DC today",
+    "primaryButton": {
+      "text": "Start Searching",
+      "link": "/search"
+    },
+    "secondaryButton": {
+      "text": "Get in Touch",
+      "link": "/contact"
+    }
+  }
+}

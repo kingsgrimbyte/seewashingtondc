@@ -1,0 +1,67 @@
+{
+  "seo": {
+    "title": "Getting Around Washington DC | Airports, Metro, Union Station, Buses",
+    "description": "The clean, quick guide to Washington DC transportation. Airports, Union Station, Metro lines, and DC Circulator with practical tips for getting around."
+  },
+  "hero": {
+    "eyebrow": "Travel Guide",
+    "title": "Getting Around Washington DC",
+    "intro": "Washington DC is well connected. Fly in, ride the rails, or hop on the Metro. This guide gives you the smoothest ways to move."
+  },
+  "toc": [
+    { "label": "Airports", "href": "#airports" },
+    { "label": "Union Station", "href": "#union-station" },
+    { "label": "Washington Metro", "href": "#washington-metro" },
+    { "label": "Buses & DC Circulator", "href": "#buses" }
+  ],
+  "sections": [
+    {
+      "id": "airports",
+      "title": "Airports",
+      "subtitle": "Two major airports serve DC",
+      "cards": [
+        {
+          "name": "Dulles International Airport (IAD)",
+          "distance": "About 26 miles from downtown",
+          "desc": "Hub for international flights with access by taxi, bus, and the Silver Line Metro.",
+          "access": ["Silver Line Metro to IAD", "Taxi and rideshare", "Express bus options"]
+        },
+        {
+          "name": "Ronald Reagan Washington National Airport (DCA)",
+          "distance": "Just across the Potomac in Virginia",
+          "desc": "Closest airport to downtown with quick Metro access on the Blue and Yellow lines.",
+          "access": ["Blue Line", "Yellow Line", "Taxi and rideshare"]
+        }
+      ]
+    },
+    {
+      "id": "union-station",
+      "title": "Union Station",
+      "subtitle": "The central rail hub",
+      "body": "Union Station runs Amtrak for the Northeast and beyond, plus regional rail and intercity buses. It is a reliable jump point for getting around DC or heading up and down the East Coast."
+    },
+    {
+      "id": "washington-metro",
+      "title": "Washington Metro",
+      "subtitle": "Fast citywide coverage",
+      "body": "Six color-coded lines connect neighborhoods and top sights like the National Mall and museums.",
+      "lines": ["Red", "Blue", "Orange", "Silver", "Yellow", "Green"],
+      "tips": [
+        "Grab a SmarTrip card or use contactless pay",
+        "Off-peak rides are quieter",
+        "Stations near the Mall can get busy during events"
+      ]
+    },
+    {
+      "id": "buses",
+      "title": "Buses & DC Circulator",
+      "subtitle": "Low-cost links between key spots",
+      "body": "Metrobus covers the city and suburbs. The DC Circulator is a simple, low-fare shuttle connecting places like the National Gallery of Art, Georgetown, and Capitol Hill.",
+      "highlights": [
+        "Frequent service on popular routes",
+        "Simple flat fare on DC Circulator",
+        "Good for short hops between attractions"
+      ]
+    }
+  ]
+}

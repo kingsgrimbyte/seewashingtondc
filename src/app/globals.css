@@ -1,0 +1,329 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+}
+
+@theme {
+  --color-primary: #b84435;
+  --color-secondary: #113b5c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Modern UI Utilities */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+/* Firefly Animation */
+.firefly {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  margin: -3px 0 0 -3px;
+  animation: ease 200s alternate infinite;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.5);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.5) 30%, transparent 70%);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+  will-change: transform;
+}
+
+/* Fade In Up Animation */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.firefly:nth-child(1) {
+  animation-name: firefly-1;
+}
+.firefly:nth-child(2) {
+  animation-name: firefly-2;
+}
+.firefly:nth-child(3) {
+  animation-name: firefly-3;
+}
+.firefly:nth-child(4) {
+  animation-name: firefly-4;
+}
+.firefly:nth-child(5) {
+  animation-name: firefly-5;
+}
+.firefly:nth-child(6) {
+  animation-name: firefly-6;
+}
+.firefly:nth-child(7) {
+  animation-name: firefly-7;
+}
+
+@keyframes firefly-1 {
+  0% { transform: translate(100vw, 50vh); }
+  10% { transform: translate(10vw, 30vh); }
+  20% { transform: translate(80vw, 80vh); }
+  30% { transform: translate(30vw, 70vh); }
+  40% { transform: translate(90vw, 10vh); }
+  50% { transform: translate(40vw, 30vh); }
+  60% { transform: translate(70vw, 80vh); }
+  70% { transform: translate(10vw, 20vh); }
+  80% { transform: translate(80vw, 90vh); }
+  90% { transform: translate(20vw, 30vh); }
+  100% { transform: translate(90vw, 40vh); }
+}
+
+@keyframes firefly-2 {
+  0% { transform: translate(10vw, 80vh); }
+  10% { transform: translate(90vw, 10vh); }
+  20% { transform: translate(30vw, 70vh); }
+  30% { transform: translate(80vw, 20vh); }
+  40% { transform: translate(20vw, 90vh); }
+  50% { transform: translate(70vw, 40vh); }
+  60% { transform: translate(40vw, 60vh); }
+  70% { transform: translate(90vw, 30vh); }
+  80% { transform: translate(10vw, 50vh); }
+  90% { transform: translate(60vw, 80vh); }
+  100% { transform: translate(30vw, 10vh); }
+}
+
+@keyframes firefly-3 {
+  0% { transform: translate(50vw, 10vh); }
+  10% { transform: translate(20vw, 80vh); }
+  20% { transform: translate(70vw, 30vh); }
+  30% { transform: translate(10vw, 60vh); }
+  40% { transform: translate(60vw, 20vh); }
+  50% { transform: translate(30vw, 90vh); }
+  60% { transform: translate(80vw, 40vh); }
+  70% { transform: translate(20vw, 70vh); }
+  80% { transform: translate(90vw, 10vh); }
+  90% { transform: translate(40vw, 60vh); }
+  100% { transform: translate(70vw, 30vh); }
+}
+
+@keyframes firefly-4 {
+  0% { transform: translate(30vw, 40vh); }
+  10% { transform: translate(80vw, 70vh); }
+  20% { transform: translate(20vw, 10vh); }
+  30% { transform: translate(90vw, 50vh); }
+  40% { transform: translate(40vw, 80vh); }
+  50% { transform: translate(70vw, 20vh); }
+  60% { transform: translate(10vw, 90vh); }
+  70% { transform: translate(60vw, 30vh); }
+  80% { transform: translate(30vw, 60vh); }
+  90% { transform: translate(80vw, 10vh); }
+  100% { transform: translate(20vw, 50vh); }
+}
+
+@keyframes firefly-5 {
+  0% { transform: translate(70vw, 60vh); }
+  10% { transform: translate(20vw, 30vh); }
+  20% { transform: translate(90vw, 80vh); }
+  30% { transform: translate(40vw, 10vh); }
+  40% { transform: translate(60vw, 50vh); }
+  50% { transform: translate(10vw, 70vh); }
+  60% { transform: translate(80vw, 20vh); }
+  70% { transform: translate(30vw, 90vh); }
+  80% { transform: translate(50vw, 40vh); }
+  90% { transform: translate(70vw, 10vh); }
+  100% { transform: translate(20vw, 80vh); }
+}
+
+@keyframes firefly-6 {
+  0% { transform: translate(40vw, 20vh); }
+  10% { transform: translate(90vw, 70vh); }
+  20% { transform: translate(10vw, 30vh); }
+  30% { transform: translate(60vw, 80vh); }
+  40% { transform: translate(30vw, 10vh); }
+  50% { transform: translate(80vw, 50vh); }
+  60% { transform: translate(20vw, 60vh); }
+  70% { transform: translate(70vw, 90vh); }
+  80% { transform: translate(40vw, 30vh); }
+  90% { transform: translate(90vw, 60vh); }
+  100% { transform: translate(10vw, 20vh); }
+}
+
+@keyframes firefly-7 {
+  0% { transform: translate(80vw, 90vh); }
+  10% { transform: translate(30vw, 20vh); }
+  20% { transform: translate(60vw, 70vh); }
+  30% { transform: translate(10vw, 40vh); }
+  40% { transform: translate(50vw, 10vh); }
+  50% { transform: translate(20vw, 80vh); }
+  60% { transform: translate(70vw, 30vh); }
+  70% { transform: translate(40vw, 60vh); }
+  80% { transform: translate(90vw, 20vh); }
+  90% { transform: translate(10vw, 50vh); }
+  100% { transform: translate(60vw, 90vh); }
+} 
+
+/* Weather Particle Animation */
+.weather-particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  margin: -2px 0 0 -2px;
+  animation: weather-float 15s linear infinite;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.6);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.6) 30%, transparent 70%);
+  border-radius: 50%;
+  box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.3);
+  will-change: transform;
+}
+
+.weather-particle:nth-child(1) {
+  animation-name: weather-float-1;
+  animation-delay: 0s;
+}
+
+.weather-particle:nth-child(2) {
+  animation-name: weather-float-2;
+  animation-delay: 5s;
+}
+
+.weather-particle:nth-child(3) {
+  animation-name: weather-float-3;
+  animation-delay: 10s;
+}
+
+@keyframes weather-float-1 {
+  0% { 
+    transform: translate(0vw, 100vh) scale(0);
+    opacity: 0;
+  }
+  10% { 
+    transform: translate(10vw, 90vh) scale(1);
+    opacity: 1;
+  }
+  90% { 
+    transform: translate(90vw, 10vh) scale(1);
+    opacity: 1;
+  }
+  100% { 
+    transform: translate(100vw, 0vh) scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes weather-float-2 {
+  0% { 
+    transform: translate(100vw, 0vh) scale(0);
+    opacity: 0;
+  }
+  10% { 
+    transform: translate(90vw, 10vh) scale(1);
+    opacity: 1;
+  }
+  90% { 
+    transform: translate(10vw, 90vh) scale(1);
+    opacity: 1;
+  }
+  100% { 
+    transform: translate(0vw, 100vh) scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes weather-float-3 {
+  0% { 
+    transform: translate(50vw, 100vh) scale(0);
+    opacity: 0;
+  }
+  10% { 
+    transform: translate(60vw, 90vh) scale(1);
+    opacity: 1;
+  }
+  50% { 
+    transform: translate(80vw, 50vh) scale(1);
+    opacity: 1;
+  }
+  90% { 
+    transform: translate(40vw, 10vh) scale(1);
+    opacity: 1;
+  }
+  100% { 
+    transform: translate(30vw, 0vh) scale(0);
+    opacity: 0;
+  }
+}
+
+/* Weather-specific animations */
+@keyframes weather-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.weather-fade-in {
+  animation: weather-fade-in 0.8s ease-out forwards;
+}
+
+/* Temperature color transitions */
+.temp-transition {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Chart hover effects */
+.chart-hover {
+  transition: all 0.2s ease;
+}
+
+.chart-hover:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* Seasonal color schemes using primary and secondary colors */
+.season-spring {
+  background: linear-gradient(135deg, rgba(184, 68, 53, 0.1) 0%, rgba(17, 59, 92, 0.1) 100%);
+}
+
+.season-summer {
+  background: linear-gradient(135deg, rgba(184, 68, 53, 0.15) 0%, rgba(17, 59, 92, 0.15) 100%);
+}
+
+.season-fall {
+  background: linear-gradient(135deg, rgba(184, 68, 53, 0.12) 0%, rgba(17, 59, 92, 0.12) 100%);
+}
+
+.season-winter {
+  background: linear-gradient(135deg, rgba(17, 59, 92, 0.1) 0%, rgba(184, 68, 53, 0.1) 100%);
+} 
