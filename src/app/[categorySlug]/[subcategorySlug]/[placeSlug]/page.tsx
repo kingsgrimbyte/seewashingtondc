@@ -102,7 +102,7 @@ export default async function PlaceDetailPage({ params }: { params: Promise<Plac
   // Get operating status based on the day's hours
   const todayHours = place.hours?.[today as keyof typeof place.hours] || 'Unknown';
   const isOpen = todayHours !== 'Closed' && todayHours !== 'Unknown';
-  
+  // console.log(place.images)
   return (
     <main className="min-h-screen pb-16">
       {/* Hero Section - Using improved ClientImage */}
@@ -424,7 +424,7 @@ export default async function PlaceDetailPage({ params }: { params: Promise<Plac
                     </svg>
                     Website
                   </h4>
-                   <div className="text-primary hover:underline text-sm ml-7">
+                   <div className="text-primary hover:underline text-sm ml-7  overflow-hidden whitespace-nowrap text-ellipsis ">
                     <a href={place.website} target="_blank" rel="noopener noreferrer">
                       {place.website.replace(/https?:\/\/(www\.)?/, '')}
                     </a>

@@ -6,18 +6,33 @@
     "ctaLink": "#categories"
   },
   "quickCategories": [
-    { "name": "Museums", "icon": "museum", "href": "/museums" },
-    { "name": "Restaurants", "icon": "restaurant", "href": "/restaurants" },
-    { "name": "Monuments", "icon": "monument", "href": "/monuments" },
-    { "name": "Parks", "icon": "park", "href": "/parks" },
-    { "name": "Memorials", "icon": "memorial", "href": "/memorials" },
-    { "name": "Fishing", "icon": "fish", "href": "/fishing-spot" },
-    { "name": "Water Sports", "icon": "water", "href": "/water-sports" },
-    { "name": "Islands", "icon": "island", "href": "/island" },
-    { "name": "Beaches", "icon": "beach", "href": "/beach" },
-    { "name": "Golf ", "icon": "golf", "href": "/golf-courses" },
-    { "name": "Theater", "icon": "ticket", "href": "/theater" }
-  ],
+  { "name": "Museums", "icon": "museum", "href": "/museums" },
+  { "name": "Restaurants", "icon": "restaurant", "href": "/restaurants" },
+  { "name": "Monuments", "icon": "monument", "href": "/monuments" },
+  { "name": "Parks", "icon": "park", "href": "/parks" },
+  { "name": "Memorials", "icon": "memorial", "href": "/memorials" },
+  { "name": "Fishing", "icon": "fish", "href": "/fishing-spot" },
+  { "name": "Water Sports", "icon": "water", "href": "/water-sports" },
+  { "name": "Islands", "icon": "island", "href": "/island" },
+  { "name": "Beaches", "icon": "beach", "href": "/beach" },
+  { "name": "Golf Courses", "icon": "golf", "href": "/golf-courses" },
+  { "name": "Theater", "icon": "theater", "href": "/theater" },
+  { "name": "Lounges", "icon": "lounge", "href": "/lounges" },
+  { "name": "Coffee Shop", "icon": "cafe", "href": "/coffee-shop" },
+  { "name": "Dining", "icon": "dining", "href": "/dining" },
+  { "name": "Gardens", "icon": "leaf", "href": "/garden" },
+  { "name": "Ambiance", "icon": "ambiance", "href": "/ambiance" },
+  { "name": "Cuisine", "icon": "cuisine", "href": "/cuisine" },
+  { "name": "Bar", "icon": "bar", "href": "/bar" },
+  { "name": "Exhibits", "icon": "exhibit", "href": "/exhibits" },
+  { "name": "Lakes", "icon": "lake", "href": "/lakes" },
+  { "name": "Hotels", "icon": "hotel", "href": "/hotels" },
+  { "name": "BBQ", "icon": "bbq", "href": "/bbq" },
+  { "name": "Airports", "icon": "navigation", "href": "/airports" },
+  { "name": "Zoos", "icon": "zoo", "href": "/zoo" },
+  { "name": "Spas", "icon": "spa", "href": "/spas" },
+  { "name": "Cafe", "icon": "cafe", "href": "/cafe" }
+],
   "whyVisitDC": {
     "badge": "Explore DC",
     "badgeColor": "from-amber-100 to-orange-100",
@@ -26,10 +41,22 @@
     "titleGradient": "from-blue-600 to-indigo-700",
     "description": "Washington, DC is a city rich in history, culture, and diverse experiences. As the U.S. capital, it offers a unique mix of national landmarks, cultural institutions, and vibrant neighborhoods. If you're a food lover, history enthusiast or outdoor adventurer, DC has something for everyone. With free access to world-class museums, scenic parks, and exciting local events, Washington, DC stands out as a destination that’s both educational and entertaining.",
     "features": [
-      { "icon": "landmark", "text": "Iconic Monuments & Memorials" },
-      { "icon": "palette", "text": "World-Class Museums" },
-      { "icon": "restaurant", "text": "Diverse Culinary Scene" },
-      { "icon": "park", "text": "Beautiful Parks & Gardens" }
+      {
+        "icon": "landmark",
+        "text": "Iconic Monuments & Memorials"
+      },
+      {
+        "icon": "palette",
+        "text": "World-Class Museums"
+      },
+      {
+        "icon": "restaurant",
+        "text": "Diverse Culinary Scene"
+      },
+      {
+        "icon": "park",
+        "text": "Beautiful Parks & Gardens"
+      }
     ],
     "ctaText": "Start Planning Your DC Adventure →",
     "ctaLink": "/things-to-do",
@@ -53,7 +80,12 @@
         "color": "from-pink-400 to-rose-500",
         "bgColor": "from-pink-50 to-rose-50",
         "description": "Witness the Cherry Blossom Festival and outdoor art installations.",
-        "highlights": ["Cherry Blossom Festival", "Outdoor Art Installations", "National Mall Blooms", "Spring Gardens"]
+        "highlights": [
+          "Cherry Blossom Festival",
+          "Outdoor Art Installations",
+          "National Mall Blooms",
+          "Spring Gardens"
+        ]
       },
       {
         "season": "Summer",
@@ -61,7 +93,12 @@
         "color": "from-amber-400 to-orange-500",
         "bgColor": "from-amber-50 to-orange-50",
         "description": "Enjoy waterfront dining, baseball games, and open-air concerts.",
-        "highlights": ["Waterfront Dining", "Baseball Games", "Open-Air Concerts", "Potomac Activities"]
+        "highlights": [
+          "Waterfront Dining",
+          "Baseball Games",
+          "Open-Air Concerts",
+          "Potomac Activities"
+        ]
       },
       {
         "season": "Fall",
@@ -69,7 +106,12 @@
         "color": "from-orange-400 to-red-500",
         "bgColor": "from-orange-50 to-red-50",
         "description": "Explore wine trails, fall foliage, and cultural festivals.",
-        "highlights": ["Wine Trails", "Fall Foliage", "Cultural Festivals", "Harvest Events"]
+        "highlights": [
+          "Wine Trails",
+          "Fall Foliage",
+          "Cultural Festivals",
+          "Harvest Events"
+        ]
       },
       {
         "season": "Winter",
@@ -77,7 +119,12 @@
         "color": "from-blue-400 to-indigo-500",
         "bgColor": "from-blue-50 to-indigo-50",
         "description": "Experience holiday markets, indoor museums, and cozy food tours.",
-        "highlights": ["Holiday Markets", "Indoor Museums", "Cozy Food Tours", "Winter Festivals"]
+        "highlights": [
+          "Holiday Markets",
+          "Indoor Museums",
+          "Cozy Food Tours",
+          "Winter Festivals"
+        ]
       }
     ],
     "ctaText": "Plan Your Visit Today →",
@@ -91,18 +138,90 @@
     "titleGradient": "from-purple-700 to-pink-800",
     "description": "Stay updated on what's trending and loved by locals and visitors. From hidden gems to iconic landmarks, see where DC is buzzing today.",
     "categories": [
-      { "name": "Museums", "icon": "museum", "href": "/museums", "color": "from-blue-400 to-blue-600", "bgColor": "from-blue-50 to-blue-100" },
-      { "name": "Restaurants", "icon": "restaurant", "href": "/restaurants", "color": "from-orange-400 to-orange-600", "bgColor": "from-orange-50 to-orange-100" },
-      { "name": "Monuments", "icon": "monument", "href": "/monuments", "color": "from-indigo-400 to-indigo-600", "bgColor": "from-indigo-50 to-indigo-100" },
-      { "name": "Parks", "icon": "park", "href": "/parks", "color": "from-green-400 to-green-600", "bgColor": "from-green-50 to-green-100" },
-      { "name": "Memorials", "icon": "memorial", "href": "/memorials", "color": "from-gray-400 to-gray-600", "bgColor": "from-gray-50 to-gray-100" },
-      { "name": "Fishing", "icon": "fish", "href": "/fishing-spots", "color": "from-cyan-400 to-cyan-600", "bgColor": "from-cyan-50 to-cyan-100" },
-      { "name": "Water Sports", "icon": "water", "href": "/water-sports", "color": "from-teal-400 to-teal-600", "bgColor": "from-teal-50 to-teal-100" },
-      { "name": "Hiking", "icon": "hiking", "href": "/hiking", "color": "from-emerald-400 to-emerald-600", "bgColor": "from-emerald-50 to-emerald-100" },
-      { "name": "Islands", "icon": "island", "href": "/islands", "color": "from-yellow-400 to-yellow-600", "bgColor": "from-yellow-50 to-yellow-100" },
-      { "name": "Beaches", "icon": "beach", "href": "/beach", "color": "from-amber-400 to-amber-600", "bgColor": "from-amber-50 to-amber-100" },
-      { "name": "Sports", "icon": "sports", "href": "/sports", "color": "from-red-400 to-red-600", "bgColor": "from-red-50 to-red-100" },
-      { "name": "Tickets", "icon": "ticket", "href": "/tickets", "color": "from-purple-400 to-purple-600", "bgColor": "from-purple-50 to-purple-100" }
+      {
+        "name": "Museums",
+        "icon": "museum",
+        "href": "/museums",
+        "color": "from-blue-400 to-blue-600",
+        "bgColor": "from-blue-50 to-blue-100"
+      },
+      {
+        "name": "Restaurants",
+        "icon": "restaurant",
+        "href": "/restaurants",
+        "color": "from-orange-400 to-orange-600",
+        "bgColor": "from-orange-50 to-orange-100"
+      },
+      {
+        "name": "Monuments",
+        "icon": "monument",
+        "href": "/monuments",
+        "color": "from-indigo-400 to-indigo-600",
+        "bgColor": "from-indigo-50 to-indigo-100"
+      },
+      {
+        "name": "Parks",
+        "icon": "park",
+        "href": "/parks",
+        "color": "from-green-400 to-green-600",
+        "bgColor": "from-green-50 to-green-100"
+      },
+      {
+        "name": "Memorials",
+        "icon": "memorial",
+        "href": "/memorials",
+        "color": "from-gray-400 to-gray-600",
+        "bgColor": "from-gray-50 to-gray-100"
+      },
+      {
+        "name": "Fishing",
+        "icon": "fish",
+        "href": "/fishing-spots",
+        "color": "from-cyan-400 to-cyan-600",
+        "bgColor": "from-cyan-50 to-cyan-100"
+      },
+      {
+        "name": "Water Sports",
+        "icon": "water",
+        "href": "/water-sports",
+        "color": "from-teal-400 to-teal-600",
+        "bgColor": "from-teal-50 to-teal-100"
+      },
+      {
+        "name": "Hiking",
+        "icon": "hiking",
+        "href": "/hiking",
+        "color": "from-emerald-400 to-emerald-600",
+        "bgColor": "from-emerald-50 to-emerald-100"
+      },
+      {
+        "name": "Islands",
+        "icon": "island",
+        "href": "/island",
+        "color": "from-yellow-400 to-yellow-600",
+        "bgColor": "from-yellow-50 to-yellow-100"
+      },
+      {
+        "name": "Beaches",
+        "icon": "beach",
+        "href": "/beach",
+        "color": "from-amber-400 to-amber-600",
+        "bgColor": "from-amber-50 to-amber-100"
+      },
+      {
+        "name": "Sports",
+        "icon": "sports",
+        "href": "/sports",
+        "color": "from-red-400 to-red-600",
+        "bgColor": "from-red-50 to-red-100"
+      },
+      {
+        "name": "Tickets",
+        "icon": "ticket",
+        "href": "/tickets",
+        "color": "from-purple-400 to-purple-600",
+        "bgColor": "from-purple-50 to-purple-100"
+      }
     ],
     "ctaText": "View All Popular Spots",
     "ctaLink": "/popular"
@@ -115,10 +234,26 @@
     "titleGradient": "from-blue-600 to-indigo-700",
     "description": "Rich in History & Culture: Washington, DC is home to iconic landmarks and world-class museums, offering visitors a unique cultural and historical experience. Free Admission to Museums: DC's Smithsonian Museums provide free access to some of the most renowned collections of art, history, and science. Diverse Dining Scene: The city boasts a wide range of dining options, from upscale restaurants to trendy food markets, offering something for every taste. Exciting Nightlife: DC's nightlife is buzzing with vibrant bars, lounges, and live music venues, ensuring something for everyone after dark. Outdoor Activities: Whether it's kayaking on the Potomac or hiking in Rock Creek Park, DC offers plenty of outdoor adventures for nature lovers and adventure seekers. Convenient Transportation: With an efficient Metro system, DC Circulator, and easy access to major airports, getting around the city is hassle-free.",
     "hotelTypes": [
-      { "icon": "landmark", "text": "Iconic Monuments & Memorials", "description": "World-class museums and historic sites" },
-      { "icon": "palette", "text": "World-Class Museums", "description": "Free Smithsonian collections" },
-      { "icon": "restaurant", "text": "Diverse Culinary Scene", "description": "From upscale to trendy food markets" },
-      { "icon": "moon", "text": "Exciting Nightlife", "description": "Vibrant bars and live music venues" }
+      {
+        "icon": "landmark",
+        "text": "Iconic Monuments & Memorials",
+        "description": "World-class museums and historic sites"
+      },
+      {
+        "icon": "palette",
+        "text": "World-Class Museums",
+        "description": "Free Smithsonian collections"
+      },
+      {
+        "icon": "restaurant",
+        "text": "Diverse Culinary Scene",
+        "description": "From upscale to trendy food markets"
+      },
+      {
+        "icon": "moon",
+        "text": "Exciting Nightlife",
+        "description": "Vibrant bars and live music venues"
+      }
     ],
     "ctaText": "Plan Your Visit to DC →",
     "ctaLink": "/things-to-do",
@@ -142,23 +277,38 @@
         "icon": "museum",
         "color": "from-violet-400 to-violet-600",
         "bgColor": "from-violet-50 to-violet-100",
-        "features": ["Historic Architecture", "Waterfront Dining", "Shopping District", "Cobblestone Streets"]
+        "features": [
+          "Historic Architecture",
+          "Waterfront Dining",
+          "Shopping District",
+          "Cobblestone Streets"
+        ]
       },
       {
         "name": "Adams Morgan",
         "description": "Vibrant nightlife & international cuisine",
-          "icon": "moon",
+        "icon": "moon",
         "color": "from-purple-400 to-purple-600",
         "bgColor": "from-purple-50 to-purple-100",
-        "features": ["Nightlife Scene", "International Cuisine", "Live Music", "Cultural Diversity"]
+        "features": [
+          "Nightlife Scene",
+          "International Cuisine",
+          "Live Music",
+          "Cultural Diversity"
+        ]
       },
       {
         "name": "Dupont Circle",
         "description": "Trendy shops & cultural institutions",
-          "icon": "palette",
+        "icon": "palette",
         "color": "from-indigo-400 to-indigo-600",
         "bgColor": "from-indigo-50 to-indigo-100",
-        "features": ["Art Galleries", "Boutique Shops", "Cultural Events", "Historic Homes"]
+        "features": [
+          "Art Galleries",
+          "Boutique Shops",
+          "Cultural Events",
+          "Historic Homes"
+        ]
       },
       {
         "name": "Capitol Hill",
@@ -166,7 +316,12 @@
         "icon": "museum",
         "color": "from-blue-400 to-blue-600",
         "bgColor": "from-blue-50 to-blue-100",
-        "features": ["Political Landmarks", "Historic Rowhouses", "Eastern Market", "Parks & Gardens"]
+        "features": [
+          "Political Landmarks",
+          "Historic Rowhouses",
+          "Eastern Market",
+          "Parks & Gardens"
+        ]
       }
     ],
     "ctaText": "View All Neighborhoods",
@@ -188,7 +343,7 @@
         "title": "Top 10 Free Things to Do in DC",
         "description": "A budget-friendly guide to the capital's best experiences.",
         "category": "Budget Travel",
-          "icon": "money",
+        "icon": "money",
         "color": "from-emerald-400 to-emerald-600",
         "bgColor": "from-emerald-50 to-emerald-100",
         "readTime": "5 min read",
@@ -199,7 +354,7 @@
         "title": "The Best Food Spots Near the National Mall",
         "description": "Eat like a local while sightseeing.",
         "category": "Food & Dining",
-          "icon": "restaurant",
+        "icon": "restaurant",
         "color": "from-orange-400 to-orange-600",
         "bgColor": "from-orange-50 to-orange-100",
         "readTime": "7 min read",
@@ -210,7 +365,7 @@
         "title": "Nightlife Guide: DC After Dark",
         "description": "Bars, music venues, and late-night eats.",
         "category": "Nightlife",
-          "icon": "moon",
+        "icon": "moon",
         "color": "from-purple-400 to-purple-600",
         "bgColor": "from-purple-50 to-purple-100",
         "readTime": "8 min read",

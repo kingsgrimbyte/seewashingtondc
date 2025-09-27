@@ -53,31 +53,42 @@ export default function ListingGrid({ places }: ListingGridProps) {
   };
 
   // Same image handling logic as ImageGallery
-  const getImageUrl = (image: any) => {
-    if (!image?.image_url) {
-      return 'https://ik.imagekit.io/h7rza8886p/old-buildings-water-tower.jpg?updatedAt=1754994821722';
-    }
+const getImageUrl = (image: any) => {
+  if (!image?.image_url) {
+    return 'https://ik.imagekit.io/h7rza8886p/old-buildings-water-tower.jpg?updatedAt=1754994821722';
+  }
 
-    let imageUrl = image.image_url;
-    
-    // Handle Google image URLs
-    if (imageUrl.includes('googleusercontent.com')) {
-      // Ensure the URL has proper dimensions
-      if (!imageUrl.includes('=w') || !imageUrl.includes('-h')) {
-        imageUrl = imageUrl.replace(/\?.*$/, '') + '=w800-h600-no';
-      } else {
-        imageUrl = imageUrl.replace(/w\d+-h\d+(-k)?-no/, 'w800-h600-no');
+  let imageUrl = image.image_url;
+
+  // ✅ Handle JSON string case first
+  if (typeof imageUrl === 'string' && imageUrl.trim().startsWith('{')) {
+    try {
+      const parsed = JSON.parse(imageUrl);
+      if (parsed.thumbnail) {
+        imageUrl = parsed.thumbnail;
       }
+    } catch {
+      // ignore parse errors and keep as-is
     }
     
-    // Handle gps-proxy URLs
-    if (imageUrl.includes('gps-proxy')) {
-      return 'https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg';
+  }
+
+  // ✅ Handle Google image URLs
+  if (imageUrl.includes('googleusercontent.com')) {
+    if (!imageUrl.includes('=w') || !imageUrl.includes('-h')) {
+      imageUrl = imageUrl.replace(/\?.*$/, '') + '=w800-h600-no';
+    } else {
+      imageUrl = imageUrl.replace(/w\d+-h\d+(-k)?-no/, 'w800-h600-no');
     }
+  }
 
-    return imageUrl;
-  };
+  // ✅ Handle gps-proxy URLs
+  if (imageUrl.includes('gps-proxy')) {
+    return 'https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg';
+  }
 
+  return imageUrl;
+};
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {places.map((place, index) => (

@@ -110,7 +110,7 @@ export default function CategoryPageClient({
       </div>
     );
   }
-
+  // console.log(  allSubcategories[0].places);
   return (
     <div className="min-h-screen">
       <CategoryHeader 
@@ -154,7 +154,7 @@ export default function CategoryPageClient({
           <p className="text-lg text-gray-600 max-w-2xl">Browse through our curated selection of places</p>
         </div>
         
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex flex-col lg:flex-row gap-8 ">
           <div className="w-full lg:w-1/4">
             <ListingFilters onFilterChange={handleFilterChange} />
           </div>

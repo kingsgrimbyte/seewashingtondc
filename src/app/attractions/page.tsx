@@ -54,7 +54,7 @@ const pageContent = {
     { name: "Monuments", link: "/monuments", icon: "monument", count: "20+" },
     { name: "Memorials", link: "/memorials/", icon: "memorial", count: "12+" },
     { name: "Parks", link: "/parks/", icon: "park", count: "8+" },
-    { name: "Gardens", link: "/gardens/", icon: "park", count: "5+" },
+    { name: "Garden", link: "/garden/", icon: "park", count: "5+" },
     { name: "Zoos", link: "/zoo/", icon: "zoo", count: "3+" },
     { name: "Islands", link: "/island/", icon: "island", count: "4+" },
     { name: "Beach", link: "/beach/", icon: "beach", count: "6+" },
@@ -126,8 +126,6 @@ const WashingtonDCAttractionsPage = () => {
         ctaText={homeContent.hero.ctaText}
         ctaLink={homeContent.hero.ctaLink}
       />
-
-
       {/* Categories Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -218,10 +216,10 @@ const WashingtonDCAttractionsPage = () => {
       </section>
 
       {/* SEO Content Section */}
-     <SeoContentSection/>
+      <SeoContentSection />
 
-       {/* Map Section */}
-   <MapSection/>
+      {/* Map Section */}
+      <MapSection />
       {/* Final CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary to-secondary text-white">
         <div className="max-w-4xl mx-auto text-center px-6">

@@ -40,7 +40,7 @@ export default async function SubcategoryPage({ params }: Props) {
   // Fetch initial data
   const subcategory = await getSubcategoryBySlug(subcategorySlug);
   const places = await getPlacesBySubcategorySlug(subcategorySlug);
-
+// console.log(subcategory?.name, places[0]);
   return (
     <SubcategoryPageClient 
       initialSubcategory={subcategory}
