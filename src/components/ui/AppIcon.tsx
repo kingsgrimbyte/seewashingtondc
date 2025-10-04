@@ -45,18 +45,8 @@ import {
   FaClock,
   FaArrowRight,
   FaGolfBall,
-  FaPhoneAlt,
-  FaHome,
-  FaGlassMartiniAlt,
-  FaCouch,
-  FaUtensilSpoon,
-  FaSeedling,
-  FaImage,
-  FaDrumstickBite,
-  FaMountain,
 } from 'react-icons/fa';
-import { GiIsland, GiCompass, GiWaterfall  } from 'react-icons/gi';
-import { TbTargetArrow } from 'react-icons/tb';
+import { GiIsland } from 'react-icons/gi'; // Added import
 
 type IconName =
   | 'theater'
@@ -107,18 +97,7 @@ type IconName =
   | 'globe'
   | 'clock'
   | 'arrowRight'
-  | 'golf'
-  | 'phone'
-  | 'target'
-  | 'home'
-  | 'compass'
-  | 'lounge'
-  | 'lake'
-  | 'dining'
-  | 'bbq'
-  | 'cuisine'
-  | 'ambiance'
-  | 'exhibit';
+  | 'golf';
 
 const iconRegistry: Record<IconName, React.ComponentType<{ className?: string }>> = {
   theater: FaTheaterMasks,
@@ -134,7 +113,7 @@ const iconRegistry: Record<IconName, React.ComponentType<{ className?: string }>
   memorial: FaLandmark,
   park: FaTree,
   zoo: FaPaw,
-  island: GiIsland,
+  island: GiIsland, // Updated to use GiIsland
   river: FaWater,
   water: FaWater,
   fish: FaFish,
@@ -170,18 +149,6 @@ const iconRegistry: Record<IconName, React.ComponentType<{ className?: string }>
   clock: FaClock,
   arrowRight: FaArrowRight,
   golf: FaGolfBall,
-  phone: FaPhoneAlt,
-  target: TbTargetArrow,
-  home: FaHome,
-  compass: GiCompass,
-  // Newly added icons
-  lounge: FaCouch,
-  lake: GiWaterfall,
-  dining: FaUtensilSpoon,
-  bbq: FaDrumstickBite,
-  cuisine: FaUtensils,
-  ambiance: FaSeedling,
-  exhibit: FaImage,
 };
 
 export type AppIconProps = {
@@ -191,9 +158,7 @@ export type AppIconProps = {
 };
 
 export default function AppIcon({ name, variant = 'primary', className }: AppIconProps) {
-  const IconComponent =
-    (iconRegistry as Record<string, React.ComponentType<{ className?: string }>>)[name] ||
-    FaQuestionCircle;
+  const IconComponent = (iconRegistry as Record<string, React.ComponentType<{ className?: string }>>)[name] || FaQuestionCircle;
   const colorClass = variant === 'secondary' ? 'text-secondary' : 'text-primary';
   return <IconComponent className={`${colorClass} ${className ?? ''}`} />;
 }

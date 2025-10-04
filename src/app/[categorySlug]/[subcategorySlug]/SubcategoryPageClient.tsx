@@ -82,7 +82,7 @@ export default function SubcategoryPageClient({
     <div className="min-h-screen">
       <CategoryHeader
         title={subcategory.name}
-        description={`Explore ${subcategory.name} in Washington DC`}
+        description={` ${subcategory.description} `}
         imageUrl={subcategory.image_url}
       />
 
@@ -104,12 +104,12 @@ export default function SubcategoryPageClient({
                 href={`/${categorySlug}`}
                 className="text-blue-600 hover:text-blue-800 transition"
               >
-                {subcategory.categoryName}
+                {categorySlug}
               </Link>
             </li>
             <li className="flex items-center space-x-2">
               <span className="text-gray-500">/</span>
-              <span className="text-gray-600">{subcategory.name}</span>
+              <span className="text-gray-600">{subcategory.slug}</span>
             </li>
           </ol>
         </nav>

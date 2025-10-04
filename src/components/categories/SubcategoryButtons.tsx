@@ -29,8 +29,8 @@ export default function SubcategoryButtons({ subcategories, categorySlug }: Subc
             text-gray-700 hover:text-primary font-medium text-[15px] min-w-[120px] text-center
             shadow-sm hover:shadow-md"
         >
-          <span className="relative z-10 flex items-center justify-center gap-2">
-            {subcategory.name}
+          <span className="relative z-10 flex items-center justify-center gap-2 capitalize">
+            {subcategory.slug.split("-").join(" ")}
             <svg 
               className="w-4 h-4 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" 
               fill="none" 

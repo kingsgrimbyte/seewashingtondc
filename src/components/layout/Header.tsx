@@ -93,7 +93,7 @@ export default function Header() {
         href: "/fishing-spot",
         icon: "fish",
       },
-      { name: "Spa", href: "/spas", icon: "spa" },
+      { name: "Spa", href: "/spa", icon: "spa" },
       { name: "Beaches", href: "/beach", icon: "beach" },
       { name: "Islands", href: "/island", icon: "island" },
     ],
@@ -108,7 +108,7 @@ export default function Header() {
     ],
     entertainment: [
       { name: "Theaters ", href: "/theater/", icon: "theater" },
-      { name: "Zoo", href: "/zoo/", icon: "zoo" },
+      { name: "Zoo", href: "/Zoo/", icon: "zoo" },
       { name: "Golf Courses", href: "/golf-courses/", icon: "golf" },
       { name: "Nightlife & Bars", href: "/bar/", icon: "bar" },
     ],

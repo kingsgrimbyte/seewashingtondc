@@ -93,7 +93,6 @@ export function DataTable<T extends { id: string | number }>({
           />
         </div>
       )}
-
       {/* Table */}
       <div className="rounded-md border border-gray-200 overflow-hidden">
         <table className="min-w-full divide-y divide-gray-200">

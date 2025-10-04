@@ -7,7 +7,7 @@
   },
   "categories": [
     { "name": "Theaters & Performances", "href": "/theater/", "icon": "theater" },
-    { "name": "Zoo", "href": "/zoo/", "icon": "zoo" },
+    { "name": "Zoo", "href": "/Zoo/", "icon": "zoo" },
     { "name": "Golf Courses", "href": "/golf-courses/", "icon": "golf" },
     { "name": "Nightlife & Bars", "href": "/bar/", "icon": "bar" }
   ],

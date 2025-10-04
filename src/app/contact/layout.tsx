@@ -1,11 +1,12 @@
 import { Metadata } from 'next/types';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - Washington DC Directory',
-  description: 'Get in touch with our team for questions, suggestions, or support. We\'re here to help you discover the best of Washington DC.',
+  title: 'Contact See Washington DC | Plan Your Trip Today',
+  description: 'Get in touch with See Washington DC for travel tips, questions, or support. Our team helps you plan a smooth and memorable sightseeing experience in the capital.',
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/contact`,},
   openGraph: {
-    title: 'Contact Us - Washington DC Directory',
-    description: 'Get in touch with our team for questions, suggestions, or support. We\'re here to help you discover the best of Washington DC.',
+    title: 'Contact See Washington DC | Plan Your Trip Today',
+    description: 'Get in touch with See Washington DC for travel tips, questions, or support. Our team helps you plan a smooth and memorable sightseeing experience in the capital.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Washington DC Directory',

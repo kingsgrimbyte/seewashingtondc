@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "About See Washington, DC | Exploring the Nation's Capital",
   description:
     "Discover Washington, DC with Us – your trusted online guide to attractions, events, neighborhoods, and hidden gems. Perfect for first-time visitors, repeat travelers, and locals looking to explore more.",
+    alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/about`,},
   openGraph: {
     title: "About See Washington, DC | Exploring the Nation's Capital",
     description:
@@ -194,9 +195,11 @@ export default function AboutPage() {
       </section>
 
       {/* Trust Section */}
-      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
-          
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-secondary rounded-full mb-8">
+            <AppIcon name="shield-check" className="text-3xl text-white" />
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             {content.trust.title}
           </h2>
@@ -275,7 +278,7 @@ export default function AboutPage() {
       </section> */}
 
       {/* CTA Section */}
-      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary to-secondary text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary to-secondary text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             {content.cta.title}
@@ -284,12 +287,12 @@ export default function AboutPage() {
             {content.cta.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            {/* <Link
+            <Link
               href={content.cta.primaryButton.link}
               className="bg-white text-primary px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               {content.cta.primaryButton.text}
-            </Link> */}
+            </Link>
             <Link
               href={content.cta.secondaryButton.link}
               className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-primary transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"

@@ -110,12 +110,12 @@ export default function CategoryPageClient({
       </div>
     );
   }
-  // console.log(  allSubcategories[0].places);
+
   return (
     <div className="min-h-screen">
       <CategoryHeader 
         title={category.name}
-        description={`Explore ${category.name} in Washington DC`}
+        description={category.description || `Explore ${category.name} in Washington DC`}
         imageUrl={category.image_url}
       />
       
@@ -128,7 +128,7 @@ export default function CategoryPageClient({
             </li>
             <li className="flex items-center space-x-2">
               <span className="text-gray-500">/</span>
-              <span className="text-gray-600">{category.name}</span>
+              <span className="text-gray-600">{category.slug}</span>
             </li>
           </ol>
         </nav>
@@ -154,7 +154,7 @@ export default function CategoryPageClient({
           <p className="text-lg text-gray-600 max-w-2xl">Browse through our curated selection of places</p>
         </div>
         
-        <div className="flex flex-col lg:flex-row gap-8 ">
+        <div className="flex flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-1/4">
             <ListingFilters onFilterChange={handleFilterChange} />
           </div>

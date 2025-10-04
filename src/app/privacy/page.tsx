@@ -2,14 +2,17 @@ import Hero from '@/components/layout/Hero';
 import { Metadata } from 'next/types';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Washington DC Directory',
-  description: 'Learn how we collect, use, and protect your personal information when you use DC Directory to discover Washington DC.',
+  title: 'Privacy Policy | See Washington DC',
+  description: 'Read the Privacy Policy of See Washington DC to learn how we collect, use, and protect your personal information while providing trusted travel resources.',
   openGraph: {
     title: 'Privacy Policy - Washington DC Directory',
     description: 'Learn how we collect, use, and protect your personal information when you use DC Directory to discover Washington DC.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Washington DC Directory',
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/privacy`,
   },
   robots: {
     index: true,

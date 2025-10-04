@@ -21,9 +21,12 @@ import MapSection from "@/components/ui/MapSection"
 import SeoContentSection from "@/components/ui/SeoContentSection"
 
 export const metadata: Metadata = {
-  title: "Things to Do in Washington, DC – Top Attractions, Outdoor Activities & More",
+  title: "Things to Do in Washington DC | Sightseeing, Tours & Activities",
   description:
-    "Explore exciting things to do in Washington, DC, including outdoor activities, museums, events, and attractions. Plan your trip and find must-see spots and experiences in the capital city.",
+    "Find the best things to do in Washington DC — from iconic landmarks and museums to local tours, events, and hidden gems. Plan your unforgettable DC adventure today.",
+    alternates:{
+      canonical:`${process.env.NEXT_PUBLIC_SITE_URL}/things-to-do`
+    },
   keywords:
     "Washington DC activities, things to do DC, Potomac River water sports, Rock Creek Park hiking, DC outdoor adventures, family activities DC",
   openGraph: {
@@ -108,7 +111,7 @@ const pageContent = {
       },
     ],
     ctaText: "Explore All Things to Do",
-    ctaLink: "/activities-directory",
+    ctaLink: "/activities",
   },
   mapSection: {
     title: "Find Activities Near You",
@@ -147,7 +150,7 @@ const pageContent = {
   finalCta: {
     title: "Ready to Explore Washington DC's Best Things to Do?",
     ctaText: "Start Planning Your Visit",
-    ctaLink: "/plan-visit",
+    ctaLink: "/contact",
   },
 }
 

@@ -40,6 +40,7 @@ import {
 import { GiCherry } from "react-icons/gi";
 import SeoContentSection from "@/components/ui/SeoContentSection";
 import MapSection from "@/components/ui/MapSection";
+import Head from "./Head";
 
 // Updated JSON data structure
 const pageContent = {
@@ -54,7 +55,7 @@ const pageContent = {
     { name: "Monuments", link: "/monuments", icon: "monument", count: "20+" },
     { name: "Memorials", link: "/memorials/", icon: "memorial", count: "12+" },
     { name: "Parks", link: "/parks/", icon: "park", count: "8+" },
-    { name: "Garden", link: "/garden/", icon: "park", count: "5+" },
+    { name: "Gardens", link: "/gardens/", icon: "park", count: "5+" },
     { name: "Zoos", link: "/zoo/", icon: "zoo", count: "3+" },
     { name: "Islands", link: "/island/", icon: "island", count: "4+" },
     { name: "Beach", link: "/beach/", icon: "beach", count: "6+" },
@@ -119,6 +120,7 @@ const WashingtonDCAttractionsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Head />
       {/* Hero Section */}
       <Hero
         title={homeContent.hero.title}
@@ -126,6 +128,7 @@ const WashingtonDCAttractionsPage = () => {
         ctaText={homeContent.hero.ctaText}
         ctaLink={homeContent.hero.ctaLink}
       />
+
       {/* Categories Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -230,9 +233,11 @@ const WashingtonDCAttractionsPage = () => {
             Start planning your unforgettable journey through the nation's
             capital today.
           </p>
-          <button className="bg-white text-blue-800 hover:bg-gray-100 px-8 py-4 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-            Start Planning Your Visit →
-          </button>
+          <a href="/contact">
+            <button className="bg-white text-blue-800 hover:bg-gray-100 px-8 py-4 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              Start Planning Your Visit →
+            </button>
+          </a>
         </div>
       </section>
     </div>

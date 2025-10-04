@@ -48,7 +48,7 @@ const TopDiningSpotsSection = () => (
       ))}
     </div>
     <div className="flex justify-center mt-8">
-      <Link href="/eat-and-drink/restaurants/" className="inline-flex items-center gap-2 bg-primary text-white font-bold px-6 py-3 rounded-full shadow hover:bg-secondary transition-all">
+      <Link href="/restaurants/" className="inline-flex items-center gap-2 bg-primary text-white font-bold px-6 py-3 rounded-full shadow hover:bg-secondary transition-all">
         Explore All Restaurants <FaArrowRight />
       </Link>
     </div>

@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getCategories, getSubcategories, getPlaces } from '@/lib/data-service';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://seewashington.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://seewashingtondc.net/';
 
 export async function GET() {
   try {

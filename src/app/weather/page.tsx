@@ -7,7 +7,7 @@ import WeatherHero from "../weather/weather-hero"
 import WeatherChart from "../weather/weather-chart"
 import { Card } from "../../components/ui/card"
 import { FaTshirt, FaUmbrella } from "react-icons/fa"
-import WeatherWidget from "./WeatherWidget"
+import Head from "./Head"
 
 interface WeatherData {
   location: string
@@ -230,16 +230,14 @@ export default function WeatherPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* <WeatherHero
+      <Head/>
+      <WeatherHero
         location={weatherData?.location || ""}
         temperature={weatherData?.temperature || 0}
         condition={weatherData?.condition || ""}
         description={weatherData?.description || ""}
         isLoading={isLoading}
-      /> */}
-        <section className="my-12 mt-20">
-          <WeatherWidget />
-        </section>
+      />
 
       <main className="max-w-7xl mx-auto px-6 py-12">
         {error && (

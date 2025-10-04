@@ -1,7 +1,10 @@
-import React from 'react';
-import type { Metadata } from 'next/types';
-import { getPlacesBySubcategorySlug, getSubcategoryBySlug } from '@/lib/data-service';
-import SubcategoryPageClient from './SubcategoryPageClient';
+import React from "react";
+import type { Metadata } from "next/types";
+import {
+  getPlacesBySubcategorySlug,
+  getSubcategoryBySlug,
+} from "@/lib/data-service";
+import SubcategoryPageClient from "./SubcategoryPageClient";
 
 interface Props {
   params: Promise<{
@@ -14,20 +17,24 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const params = await props.params;
   const subcategorySlug = decodeURIComponent(params.subcategorySlug);
   const subcategory = await getSubcategoryBySlug(subcategorySlug);
-  
+
   if (!subcategory) {
     return {
-      title: 'Subcategory Not Found',
-      description: 'The requested subcategory could not be found.'
+      title: "Subcategory Not Found",
+      description: "The requested subcategory could not be found.",
     };
   }
 
   return {
-    title: `${subcategory.name} in Washington DC - See Washington`,
-    description: subcategory.description || `Explore ${subcategory.name} in Washington DC`,
+    title: `${subcategory.name}`,
+    description:
+      subcategory.description || `Explore ${subcategory.name} in Washington DC`,
+    alternates: {canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${params.categorySlug}/${subcategorySlug}`},
     openGraph: {
       title: `${subcategory.name} in Washington DC - See Washington`,
-      description: subcategory.description || `Explore ${subcategory.name} in Washington DC`,
+      description:
+        subcategory.description ||
+        `Explore ${subcategory.name} in Washington DC`,
       images: [subcategory.image_url],
     },
   };
@@ -36,13 +43,13 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 export default async function SubcategoryPage({ params }: Props) {
   const resolvedParams = await params;
   const subcategorySlug = decodeURIComponent(resolvedParams.subcategorySlug);
-  
+
   // Fetch initial data
   const subcategory = await getSubcategoryBySlug(subcategorySlug);
   const places = await getPlacesBySubcategorySlug(subcategorySlug);
-// console.log(subcategory?.name, places[0]);
+
   return (
-    <SubcategoryPageClient 
+    <SubcategoryPageClient
       initialSubcategory={subcategory}
       initialPlaces={places}
       subcategorySlug={subcategorySlug}

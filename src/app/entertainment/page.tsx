@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import HeroSection from "@/components/entertainment/HeroSection";
 import CategoriesSection from "@/components/entertainment/CategoriesSection";
@@ -11,6 +10,16 @@ import FinalCTASection from "@/components/entertainment/FinalCTASection";
 import MapSection from "@/components/ui/MapSection";
 import SeoContentSection from "@/components/ui/SeoContentSection";
 import Hero from "@/components/layout/Hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Entertainment in Washington DC | Nightlife, Music & Events',
+  description: 'Experience Washington DC entertainment — live music, theaters, nightlife, and cultural events. Find the best spots for fun and unforgettable city experiences.',
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/entertainment`,
+  },
+};
+
 
 export default function EntertainmentPage() {
   return (

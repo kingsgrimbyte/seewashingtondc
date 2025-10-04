@@ -1,16 +1,19 @@
-"use client";
 import React from "react";
-import HeroSection from "@/components/eatAndDrink/HeroSection";
 import CategoriesSection from "@/components/eatAndDrink/CategoriesSection";
 import TopDiningSpotsSection from "@/components/eatAndDrink/TopDiningSpotsSection";
-import MapViewSection from "@/components/eatAndDrink/MapViewSection";
-import SEOContentSection from "@/components/eatAndDrink/SEOContentSection";
-import WhenToVisitSection from "@/components/eatAndDrink/WhenToVisitSection";
-import GettingAroundSection from "@/components/eatAndDrink/GettingAroundSection";
 import FinalCTASection from "@/components/eatAndDrink/FinalCTASection";
 import SeoContentSection from "@/components/ui/SeoContentSection";
 import MapSection from "@/components/ui/MapSection";
 import Hero from "@/components/layout/Hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Best Places to Eat & Drink in Washington DC | Food & Nightlife',
+  description: 'Discover Washington DC’s best restaurants, bars, and local eats. From fine dining to casual bites and nightlife spots, explore DC’s vibrant food scene today.',
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/eat-and-drink`,
+  },
+};
 
 export default function EatAndDrinkPage() {
   return (

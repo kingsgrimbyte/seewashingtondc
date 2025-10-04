@@ -77,8 +77,10 @@ export async function generateMetadata(
   }
   
   return {
-    title: `${place.name} - Washington DC Directory`,
-    description: place.description?.substring(0, 160) || `Visit ${place.name} in Washington DC.`,
+    title: `Explore ${place.name} in Washington DC`,
+    description: `Visit ${place.name} in Washington DC and explore what makes it special.`,
+    alternates: {canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${place.categorySlug}/${place.subcategorySlug}/${place.slug}`
+    },
   };
 }
 
@@ -102,7 +104,7 @@ export default async function PlaceDetailPage({ params }: { params: Promise<Plac
   // Get operating status based on the day's hours
   const todayHours = place.hours?.[today as keyof typeof place.hours] || 'Unknown';
   const isOpen = todayHours !== 'Closed' && todayHours !== 'Unknown';
-  // console.log(place.images)
+  
   return (
     <main className="min-h-screen pb-16">
       {/* Hero Section - Using improved ClientImage */}
@@ -194,7 +196,7 @@ export default async function PlaceDetailPage({ params }: { params: Promise<Plac
             <li className="flex items-center space-x-2">
               <span className="text-gray-500">/</span>
                <Link href={`/${place.categorySlug}`} className="text-primary hover:text-secondary transition">
-                {place.category}
+                {place.categorySlug}
               </Link>
             </li>
             <li className="flex items-center space-x-2">
@@ -203,12 +205,12 @@ export default async function PlaceDetailPage({ params }: { params: Promise<Plac
                 href={`/${place.categorySlug}/${place.subcategorySlug}`} 
                  className="text-primary hover:text-secondary transition"
               >
-                {place.subcategory}
+                {place.subcategorySlug}
               </Link>
             </li>
             <li className="flex items-center space-x-2">
               <span className="text-gray-500">/</span>
-              <span className="text-gray-600">{place.name}</span>
+              <span className="text-gray-600">{place.slug}</span>
             </li>
           </ol>
         </nav>
@@ -424,7 +426,7 @@ export default async function PlaceDetailPage({ params }: { params: Promise<Plac
                     </svg>
                     Website
                   </h4>
-                   <div className="text-primary hover:underline text-sm ml-7  overflow-hidden whitespace-nowrap text-ellipsis ">
+                   <div className="text-primary hover:underline text-sm ml-7">
                     <a href={place.website} target="_blank" rel="noopener noreferrer">
                       {place.website.replace(/https?:\/\/(www\.)?/, '')}
                     </a>

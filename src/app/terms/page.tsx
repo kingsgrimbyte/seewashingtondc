@@ -1,14 +1,17 @@
 import { Metadata } from 'next/types';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service - Washington DC Directory',
-  description: 'Read our terms of service to understand the rules and guidelines for using DC Directory to discover Washington DC.',
+  title: 'Terms & Conditions | See Washington DC',
+  description: 'Read the Terms & Conditions for using See Washington DC. Learn about user guidelines, responsibilities, and policies for accessing our travel information.',
   openGraph: {
     title: 'Terms of Service - Washington DC Directory',
     description: 'Read our terms of service to understand the rules and guidelines for using DC Directory to discover Washington DC.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Washington DC Directory',
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/terms`,
   },
   robots: {
     index: true,
